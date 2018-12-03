@@ -209,7 +209,7 @@
 		<obo_dbtable>iso_currency</obo_dbtable>
 		<obo_class/>
 		<obo_script_id/>
-		<obo_usets>1</obo_usets>
+		<obo_usets>0</obo_usets>
 		<obo_nosearch>0</obo_nosearch>
 		<obo_comment><![CDATA[ISO 4217 currency]]></obo_comment>
 		<obo_type>O</obo_type>
