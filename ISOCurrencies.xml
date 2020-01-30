@@ -7,9 +7,40 @@
 		<mdl_name>ISOCurrencies</mdl_name>
 		<mdl_version>4.0</mdl_version>
 		<mdl_prefix/>
-		<mdl_url><![CDATA[https://www.simplicite.io/resources/modules/isocurrencies-app-4.0.xml]]></mdl_url>
-		<mdl_lastupd>2018-11-21 17:17:05</mdl_lastupd>
-		<mdl_comment><![CDATA[Currencies (ISO 4217)]]></mdl_comment>
+		<mdl_url><![CDATA[{
+	"type": "git",
+	"origin": {
+		"uri": "https://github.com/simplicitesoftware/module-isocurrencies.git"
+	}
+}]]></mdl_url>
+		<mdl_lastupd>2020-01-30 18:45:02</mdl_lastupd>
+		<mdl_comment><![CDATA[### Introduction
+
+Currencies (ISO 4217)
+
+### Import
+
+To import this module:
+
+- Create a module named `ISOCurrencies`
+- Set the settings as:
+
+```json
+{
+	"type": "git",
+	"origin": {
+		"uri": "https://github.com/simplicitesoftware/module-isocurrencies.git"
+	}
+}
+```
+
+- Click on the _Import module_ button
+
+### Load data
+
+Sample data is provided as a module's dataset.
+
+Open this dataset and click on the _Apply_ button after having imported the module and made a full clear cache.]]></mdl_comment>
 	</data>
 </object>
 <object>
@@ -516,6 +547,16 @@
 		<tsl_value>Devise</tsl_value>
 		<tsl_help/>
 		<row_module_id.mdl_name>ISOCurrencies</row_module_id.mdl_name>
+	</data>
+</object>
+<object>
+	<name>Dataset</name>
+	<action>upsert</action>
+	<data>
+		<row_module_id.mdl_name>ISOCurrencies</row_module_id.mdl_name>
+		<dt_name>ISOCurrencies-data</dt_name>
+		<dt_file>data/ISOCurrencies-data.zip</dt_file>
+		<dt_desc><![CDATA[Created by module's data export on 2020-01-30 18:45:05]]></dt_desc>
 	</data>
 </object>
 </simplicite>
