@@ -6,6 +6,7 @@
 	<data>
 		<mdl_name>ISOCurrencies</mdl_name>
 		<mdl_version>4.0</mdl_version>
+		<mdl_prefix/>
 		<mdl_url><![CDATA[https://www.simplicite.io/resources/modules/isocurrencies-app-4.0.xml]]></mdl_url>
 		<mdl_lastupd>2018-11-21 17:17:05</mdl_lastupd>
 		<mdl_comment><![CDATA[Currencies (ISO 4217)]]></mdl_comment>
@@ -64,9 +65,11 @@
 		<fld_fonctid>1</fld_fonctid>
 		<fld_research>1</fld_research>
 		<fld_researchreq>0</fld_researchreq>
+		<fld_sort>C</fld_sort>
 		<fld_more>0</fld_more>
 		<fld_listmore>0</fld_listmore>
 		<fld_listsum/>
+		<fld_tray/>
 		<fld_type>3</fld_type>
 		<fld_type_id.flt_code/>
 		<fld_enumlist/>
@@ -75,6 +78,7 @@
 		<fld_size>3</fld_size>
 		<fld_minsize/>
 		<fld_precision/>
+		<fld_fromdate_id.fld_name/>
 		<fld_dfault/>
 		<fld_indexable>0</fld_indexable>
 		<fld_autocomp>0</fld_autocomp>
@@ -98,9 +102,11 @@
 		<fld_fonctid>0</fld_fonctid>
 		<fld_research>1</fld_research>
 		<fld_researchreq>0</fld_researchreq>
+		<fld_sort>C</fld_sort>
 		<fld_more>0</fld_more>
 		<fld_listmore>0</fld_listmore>
 		<fld_listsum/>
+		<fld_tray/>
 		<fld_type>3</fld_type>
 		<fld_type_id.flt_code/>
 		<fld_enumlist/>
@@ -109,6 +115,7 @@
 		<fld_size>100</fld_size>
 		<fld_minsize/>
 		<fld_precision/>
+		<fld_fromdate_id.fld_name/>
 		<fld_dfault/>
 		<fld_indexable>0</fld_indexable>
 		<fld_autocomp>0</fld_autocomp>
@@ -132,9 +139,11 @@
 		<fld_fonctid>0</fld_fonctid>
 		<fld_research>1</fld_research>
 		<fld_researchreq>0</fld_researchreq>
+		<fld_sort>C</fld_sort>
 		<fld_more>0</fld_more>
 		<fld_listmore>0</fld_listmore>
 		<fld_listsum/>
+		<fld_tray/>
 		<fld_type>1</fld_type>
 		<fld_type_id.flt_code/>
 		<fld_enumlist/>
@@ -143,6 +152,7 @@
 		<fld_size>3</fld_size>
 		<fld_minsize/>
 		<fld_precision/>
+		<fld_fromdate_id.fld_name/>
 		<fld_dfault/>
 		<fld_indexable>0</fld_indexable>
 		<fld_autocomp>0</fld_autocomp>
@@ -163,13 +173,6 @@
 	<action>upsert</action>
 	<data>
 		<tpl_name>ISOCurrency</tpl_name>
-		<tpl_form><![CDATA[<table class="area">
-	<tbody>
-		<tr>
-			<td class="area">[AREA:1:=]</td>
-		</tr>
-	</tbody>
-</table>]]></tpl_form>
 		<tpl_ui><![CDATA[<div class="area" data-area="1"></div>
 ]]></tpl_ui>
 		<tpl_min/>
@@ -184,7 +187,6 @@
 		<ofa_name>ISOCurrency-1</ofa_name>
 		<ofa_position>1</ofa_position>
 		<ofa_title>1</ofa_title>
-		<ofa_template/>
 		<ofa_ui><![CDATA[<div>
   <div class="field" data-field="isoCurName"></div>
   <div class="row">
@@ -236,8 +238,8 @@
 		<obo_icon>money</obo_icon>
 		<obo_refcount>0</obo_refcount>
 		<obo_tree>0</obo_tree>
-		<obo_viewmode>T</obo_viewmode>
-		<obo_historic>0</obo_historic>
+		<obo_viewmode>V</obo_viewmode>
+		<obo_historic/>
 		<obo_printable>1</obo_printable>
 		<obo_followlink>1</obo_followlink>
 		<obo_mergeable>0</obo_mergeable>
@@ -252,6 +254,7 @@
 		<obo_btn_export>P</obo_btn_export>
 		<obo_btn_listadd>1</obo_btn_listadd>
 		<obo_btn_listedit>1</obo_btn_listedit>
+		<obo_btn_listupsert/>
 		<obo_btn_updall>P</obo_btn_updall>
 		<obo_btn_delall>P</obo_btn_delall>
 		<obo_btn_merge>P</obo_btn_merge>
@@ -260,6 +263,8 @@
 		<obo_btn_close>1</obo_btn_close>
 		<obo_tray>1</obo_tray>
 		<obo_dashboard>1</obo_dashboard>
+		<obo_prefix/>
+		<obo_search_ts/>
 	</data>
 </object>
 <object>
@@ -358,6 +363,7 @@
 	<action>upsert</action>
 	<data>
 		<fct_name>ISOCurrency-CUD</fct_name>
+		<fct_object_id.obj_type>O</fct_object_id.obj_type>
 		<fct_object_id.obj_name>ISOCurrency</fct_object_id.obj_name>
 		<fct_function>CMS</fct_function>
 		<fct_action_id.act_name/>
@@ -366,6 +372,7 @@
 	</data>
 	<data>
 		<fct_name>ISOCurrency-R</fct_name>
+		<fct_object_id.obj_type>O</fct_object_id.obj_type>
 		<fct_object_id.obj_name>ISOCurrency</fct_object_id.obj_name>
 		<fct_function>L</fct_function>
 		<fct_action_id.act_name/>
@@ -379,9 +386,9 @@
 	<data>
 		<grt_group_id.grp_name>ISO_CURRENCIES_ADMIN</grt_group_id.grp_name>
 		<grt_function_id.fct_name>ISOCurrency-CUD</grt_function_id.fct_name>
-		<fct_object_id.obj_type>O</fct_object_id.obj_type>
-		<fct_object_id.obj_name>ISOCurrency</fct_object_id.obj_name>
-		<fct_action_id.act_name/>
+		<grt_function_id.fct_object_id.obj_type>O</grt_function_id.fct_object_id.obj_type>
+		<grt_function_id.fct_object_id.obj_name>ISOCurrency</grt_function_id.fct_object_id.obj_name>
+		<grt_function_id.fct_action_id.act_name/>
 		<grt_function_id.fct_function>CMS</grt_function_id.fct_function>
 		<grt_activ>1</grt_activ>
 		<row_module_id.mdl_name>ISOCurrencies</row_module_id.mdl_name>
@@ -389,9 +396,9 @@
 	<data>
 		<grt_group_id.grp_name>ISO_CURRENCIES_USER</grt_group_id.grp_name>
 		<grt_function_id.fct_name>ISOCurrency-R</grt_function_id.fct_name>
-		<fct_object_id.obj_type>O</fct_object_id.obj_type>
-		<fct_object_id.obj_name>ISOCurrency</fct_object_id.obj_name>
-		<fct_action_id.act_name/>
+		<grt_function_id.fct_object_id.obj_type>O</grt_function_id.fct_object_id.obj_type>
+		<grt_function_id.fct_object_id.obj_name>ISOCurrency</grt_function_id.fct_object_id.obj_name>
+		<grt_function_id.fct_action_id.act_name/>
 		<grt_function_id.fct_function>L</grt_function_id.fct_function>
 		<grt_activ>1</grt_activ>
 		<row_module_id.mdl_name>ISOCurrencies</row_module_id.mdl_name>
@@ -408,7 +415,9 @@
 		<tsl_simplehelp/>
 		<tsl_short_value/>
 		<tsl_placeholder/>
+		<tsl_listhelp/>
 		<row_module_id.mdl_name>ISOCurrencies</row_module_id.mdl_name>
+		<tsl_tooltip/>
 	</data>
 	<data>
 		<tsl_typeField>F</tsl_typeField>
@@ -418,7 +427,9 @@
 		<tsl_simplehelp/>
 		<tsl_short_value/>
 		<tsl_placeholder/>
+		<tsl_listhelp/>
 		<row_module_id.mdl_name>ISOCurrencies</row_module_id.mdl_name>
+		<tsl_tooltip/>
 	</data>
 	<data>
 		<tsl_typeField>F</tsl_typeField>
@@ -428,7 +439,9 @@
 		<tsl_simplehelp/>
 		<tsl_short_value/>
 		<tsl_placeholder/>
+		<tsl_listhelp/>
 		<row_module_id.mdl_name>ISOCurrencies</row_module_id.mdl_name>
+		<tsl_tooltip/>
 	</data>
 	<data>
 		<tsl_typeField>F</tsl_typeField>
@@ -438,7 +451,9 @@
 		<tsl_simplehelp/>
 		<tsl_short_value/>
 		<tsl_placeholder/>
+		<tsl_listhelp/>
 		<row_module_id.mdl_name>ISOCurrencies</row_module_id.mdl_name>
+		<tsl_tooltip/>
 	</data>
 	<data>
 		<tsl_typeField>F</tsl_typeField>
@@ -448,7 +463,9 @@
 		<tsl_simplehelp/>
 		<tsl_short_value/>
 		<tsl_placeholder/>
+		<tsl_listhelp/>
 		<row_module_id.mdl_name>ISOCurrencies</row_module_id.mdl_name>
+		<tsl_tooltip/>
 	</data>
 	<data>
 		<tsl_typeField>F</tsl_typeField>
@@ -458,7 +475,9 @@
 		<tsl_simplehelp/>
 		<tsl_short_value/>
 		<tsl_placeholder/>
+		<tsl_listhelp/>
 		<row_module_id.mdl_name>ISOCurrencies</row_module_id.mdl_name>
+		<tsl_tooltip/>
 	</data>
 </object>
 <object>

@@ -3,10 +3,8 @@
     "name": "ISOCurrencies",
     "format": "xml",
     "description": "Currencies (ISO 4217)",
-    "repository": {
-        "type": "url",
-        "url": "https://www.simplicite.io/resources/modules/isocurrencies-app-4.0.xml"
-    },
+    "files": ["ISOCurrencies.xml"],
+    "repository": {},
     "version": "4.0",
     "dependencies": [{"Simplicite": "4.0"}]
 }
