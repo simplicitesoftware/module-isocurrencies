@@ -2,9 +2,9 @@
     "date": "Thu Jan 30 18:45:02 CET 2020",
     "name": "ISOCurrencies",
     "format": "xml",
-    "description": "### Introduction\n\nCurrencies (ISO 4217)\n\n### Import\n\nTo import this module:\n\n- Create a module named `ISOCurrencies`\n- Set the settings as:\n\n```json\n{\n\t\"type\": \"git\",\n\t\"origin\": {\n\t\t\"uri\": \"https://github.com/simplicitesoftware/module-isocurrencies.git\"\n\t}\n}\n```\n\n- Click on the _Import module_ button\n\n### Load data\n\nSample data is provided as a module's dataset.\n\nOpen this dataset and click on the _Apply_ button after having imported the module and made a full clear cache.",
+    "description": "[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=simplicite-modules-ISOCurrencies&metric=alert_status)](https://sonarcloud.io/dashboard?id=simplicite-modules-ISOCurrencies)\n\n### Introduction\n\nCurrencies (ISO 4217)\n\n### Import\n\nTo import this module:\n\n- Create a module named `ISOCurrencies`\n- Set the settings as:\n\n```json\n{\n\t\"type\": \"git\",\n\t\"origin\": {\n\t\t\"uri\": \"https://github.com/simplicitesoftware/module-isocurrencies.git\"\n\t}\n}\n```\n\n- Click on the _Import module_ button\n\n### Load data\n\nSample data is provided as a module's dataset.\n\nOpen this dataset and click on the _Apply_ button after having imported the module and made a full clear cache.",
     "files": ["ISOCurrencies.xml"],
     "repository": {"origin": {"uri": "https://github.com/simplicitesoftware/module-isocurrencies.git"}},
     "version": "4.0",
-    "dependencies": [{"Simplicite": "4.0"}]
+    "dependencies": {"Simplicite": "4.0"}
 }

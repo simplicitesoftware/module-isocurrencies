@@ -11,6 +11,8 @@
 `ISOCurrencies` module definition
 =================================
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=simplicite-modules-ISOCurrencies&metric=alert_status)](https://sonarcloud.io/dashboard?id=simplicite-modules-ISOCurrencies)
+
 ### Introduction
 
 Currencies (ISO 4217)
@@ -51,8 +53,4 @@ ISO 4217 currency
 | `isoCurName`                                                 | char(100)                                | yes      | yes       |          | Currency name                                                                    |
 | `isoCurCode`                                                 | char(3)                                  | yes*     | yes       |          | Currency code (3 letters)                                                        |
 | `isoCurNum`                                                  | int(3)                                   |          | yes       |          | Currency number (3 digits)                                                       |
-
-### Custom actions
-
-No custom action
 
