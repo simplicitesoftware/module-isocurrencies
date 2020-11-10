@@ -233,6 +233,11 @@ paths:
         type: boolean
         required: false
       - in: query
+        name: _indexsearch
+        description: Index search query
+        type: string
+        required: false
+      - in: query
         name: isoCurName
         description: Search filter for Currency name
         type: string

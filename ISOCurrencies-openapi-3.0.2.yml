@@ -384,6 +384,12 @@ paths:
       - schema:
           type: string
         in: query
+        name: _indexsearch
+        description: Index search query
+        required: false
+      - schema:
+          type: string
+        in: query
         name: isoCurName
         description: Search filter for Currency name
         required: false

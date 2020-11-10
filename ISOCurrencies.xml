@@ -102,10 +102,9 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_more>0</fld_more>
 		<fld_listmore>0</fld_listmore>
 		<fld_listsum/>
-		<fld_tray/>
+		<fld_tray>0</fld_tray>
 		<fld_type>3</fld_type>
 		<fld_type_id.flt_code/>
-		<fld_enumlist/>
 		<fld_list_id.lov_name/>
 		<fld_copy>1</fld_copy>
 		<fld_size>3</fld_size>
@@ -113,13 +112,14 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_precision/>
 		<fld_fromdate_id.fld_name/>
 		<fld_dfault/>
-		<fld_indexable>0</fld_indexable>
-		<fld_autocomp>0</fld_autocomp>
+		<fld_indexable>1</fld_indexable>
+		<fld_autocomp>1</fld_autocomp>
 		<fld_groupby>0</fld_groupby>
 		<fld_updall>1</fld_updall>
 		<fld_case/>
 		<fld_righttoleft>0</fld_righttoleft>
 		<fld_rendering/>
+		<fld_speech/>
 		<fld_calc/>
 		<fld_objlist/>
 		<fld_comment><![CDATA[Currency code (3 letters)]]></fld_comment>
@@ -139,10 +139,9 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_more>0</fld_more>
 		<fld_listmore>0</fld_listmore>
 		<fld_listsum/>
-		<fld_tray/>
+		<fld_tray>0</fld_tray>
 		<fld_type>3</fld_type>
 		<fld_type_id.flt_code/>
-		<fld_enumlist/>
 		<fld_list_id.lov_name/>
 		<fld_copy>1</fld_copy>
 		<fld_size>100</fld_size>
@@ -150,13 +149,14 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_precision/>
 		<fld_fromdate_id.fld_name/>
 		<fld_dfault/>
-		<fld_indexable>0</fld_indexable>
-		<fld_autocomp>0</fld_autocomp>
+		<fld_indexable>1</fld_indexable>
+		<fld_autocomp>1</fld_autocomp>
 		<fld_groupby>0</fld_groupby>
 		<fld_updall>1</fld_updall>
 		<fld_case/>
 		<fld_righttoleft>0</fld_righttoleft>
 		<fld_rendering/>
+		<fld_speech/>
 		<fld_calc/>
 		<fld_objlist/>
 		<fld_comment><![CDATA[Currency name]]></fld_comment>
@@ -179,7 +179,6 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_tray/>
 		<fld_type>1</fld_type>
 		<fld_type_id.flt_code/>
-		<fld_enumlist/>
 		<fld_list_id.lov_name/>
 		<fld_copy>1</fld_copy>
 		<fld_size>3</fld_size>
@@ -194,6 +193,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<fld_case/>
 		<fld_righttoleft>0</fld_righttoleft>
 		<fld_rendering/>
+		<fld_speech/>
 		<fld_calc/>
 		<fld_objlist/>
 		<fld_comment><![CDATA[Currency number (3 digits)]]></fld_comment>
@@ -252,7 +252,7 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<obo_delspec/>
 		<obo_exportorder>1</obo_exportorder>
 		<obo_distinct>0</obo_distinct>
-		<obo_indexable>0</obo_indexable>
+		<obo_indexable>1</obo_indexable>
 		<obo_groupby>0</obo_groupby>
 		<obo_dfltref/>
 		<obo_template_id.tpl_name>ISOCurrency</obo_template_id.tpl_name>
@@ -293,6 +293,8 @@ Open this dataset and click on the _Apply_ button after having imported the modu
 		<obo_btn_merge>P</obo_btn_merge>
 		<obo_btn_save>1</obo_btn_save>
 		<obo_btn_saveclose>1</obo_btn_saveclose>
+		<obo_btn_savenew>1</obo_btn_savenew>
+		<obo_btn_savecopy>1</obo_btn_savecopy>
 		<obo_btn_close>1</obo_btn_close>
 		<obo_tray>1</obo_tray>
 		<obo_dashboard>1</obo_dashboard>
