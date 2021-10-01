@@ -1,9 +1,9 @@
 {
-    "date": "2020-11-10 14:05:46",
+    "date": "2021-10-01 18:22:36",
     "name": "ISOCurrencies",
     "format": "xml",
     "files": ["ISOCurrencies.xml"],
-    "repository": {},
+    "repository": {"origin": {"uri": "https://github.com/simplicitesoftware/module-isocurrencies.git"}},
     "version": "5",
-    "platform": "5.2.0-alpha"
+    "platform": "5.2.0-beta"
 }
