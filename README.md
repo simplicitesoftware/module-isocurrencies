@@ -37,7 +37,7 @@ To import this module:
 
 ### Load data
 
-Sample data is provided as a module's dataset.
+Currencies data is provided as the module's dataset.
 
 Open this dataset and click on the _Apply_ button after having imported the module and made a full clear cache.
 
